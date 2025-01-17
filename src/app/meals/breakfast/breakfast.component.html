@@ -1,0 +1,13 @@
+<div class="row g-3">
+  @for(breakFast_Menu of allBreakFastMenus;track $index){
+  <div class="col-md-3">
+    <div class="card rounded-3 overflow-hidden">
+      <img [src]="breakFast_Menu.strMealThumb" alt="" class="img-fluid" />
+      <div class="card-body px-3">
+        <h5>{{ breakFast_Menu.strMeal }}</h5>
+        <p>{{ breakFast_Menu.Desc }}</p>
+      </div>
+    </div>
+  </div>
+  }
+</div>

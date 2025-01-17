@@ -1,0 +1,36 @@
+<nav
+  class="my-3 bg-success w-50 mx-auto py-1 rounded-pill bg-dark text-body-tertiary"
+>
+  <div class="container-fluid mt-2">
+    <ul class="d-flex justify-content-center align-items-center list-unstyled">
+      <li>
+        <a
+          class="nav-link"
+          routerLink="seafood"
+          routerLinkActive="rounded-pill bg-info p-1 text-dark"
+          >Seafood</a
+        >
+      </li>
+      <li>
+        <a
+          class="nav-link"
+          routerLink="pasta"
+          routerLinkActive="rounded-pill bg-info p-1 text-dark"
+          >Pasta</a
+        >
+      </li>
+      <li>
+        <a
+          class="nav-link"
+          routerLink="breakfast"
+          routerLinkActive="rounded-pill bg-info p-1 text-dark"
+          >Breakfast</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

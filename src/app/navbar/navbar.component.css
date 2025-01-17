@@ -1,0 +1,13 @@
+:root {
+  --bg-navbar: #212529;
+  --navbar-color: rgba(255, 255, 255, 0.55);
+}
+nav {
+  background-color: #212529;
+}
+.nav-link {
+  color: rgba(255, 255, 255, 0.55);
+}
+.navbar-brand img {
+  width: 20%;
+}

@@ -1,0 +1,7 @@
+:root {
+  --bg-home-title-rgba: 33, 37, 41, 0.03;
+}
+.title {
+  background-color: rgba(33, 37, 41, 0.03);
+  /* border-bottom: 0.000002px solid rgb(113, 105, 105); */
+}

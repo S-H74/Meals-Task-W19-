@@ -1,0 +1,13 @@
+<div class="row g-3">
+  @for(pasta_Menu of allPastaMenus;track $index){
+  <div class="col-md-3">
+    <div class="card rounded-3 overflow-hidden">
+      <img [src]="pasta_Menu.strMealThumb" alt="" class="img-fluid" />
+      <div class="card-body px-3">
+        <h5>{{ pasta_Menu.strMeal }}</h5>
+        <p>{{ pasta_Menu.Desc }}</p>
+      </div>
+    </div>
+  </div>
+  }
+</div>
